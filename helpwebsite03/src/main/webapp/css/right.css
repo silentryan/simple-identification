@@ -1,0 +1,78 @@
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+.pbw-table table{
+}
+
+.pbwt-title{
+  background-color: #84817a;
+  height: 35px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.pbwt-title th{
+  width: 200px;
+  border-right: 1px solid black;
+}
+.pbwt-title th:first-child{
+  width: 100px;
+}
+
+/* 添加管理员 - 悬浮框 */
+.suspend{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  background-color: #d1ccc0;
+  width: 400px;
+  height: 240px;
+  padding: 80px 100px;
+  border-radius: 10px
+}
+.suspend p{
+  border: 1px solid red;
+  border-radius: 7px;
+  width: 400px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #40407a;
+}
+.suspend tr{
+  height: 35px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.suspend tr td:first-child{
+  padding-left: 20px;
+  padding-right: 35px;
+}
+.suspend input{
+  width: 200px;
+  height: 20px;
+  border-radius: 7px;
+}
+input[type=submit]{
+  margin-top: 30px;
+  margin-left: 65px;
+  height: 25px;
+  background-color: #33d9b2
+}
+.suspend input[type="text"]:focus,.suspend input[type="number"]:focus{
+  width: 230px;
+  background-color: #ffda79;
+}
+
+.pbwt-content{
+  height: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+.pbwt-content td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

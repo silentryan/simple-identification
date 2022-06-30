@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pdsu.mappers.AdminMapper">
+    <!--  添加一个管理员  -->
+    <insert id="addAdmin" parameterType="Admin">
+        insert into admin(aname,apass,college,grade,auth)
+        values
+        (#{admin.aname},#{admin.apass},#{admin.college},#{admin.grade},#{admin.auth});
+    </insert>
+
+    <!--  根据管理员aid更新用户权限  -->
+    <update id="updateAuth" parameterType="int">
+
+    </update>
+
+    <!--  查询所有管理员  -->
+    <select id="selectAll" resultType="com.pdsu.bean.Admin">
+        select aname,college,grade,auth from admin;
+    </select>
+</mapper>

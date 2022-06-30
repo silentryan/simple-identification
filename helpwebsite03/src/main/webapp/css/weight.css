@@ -1,0 +1,130 @@
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+.pbw-table table{
+}
+
+.pbwt-title{
+  background-color: #84817a;
+  height: 35px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.pbwt-title th{
+  width: 200px;
+  border-right: 1px solid black;
+}
+.pbwt-title th:first-child{
+  width: 100px;
+}
+
+/* 工作区数据展示 */
+.doBox{
+  display: inline-block;
+  width: 380px;
+  height: 250px;
+  background-color: #ecf0f1;
+  box-shadow: 10px 10px 20px 0 hsl(0deg 0% 94% / 63%);
+  border-radius: 8px;
+  border: 2px solid #BDC581;
+  box-sizing: border-box;
+  transition: all .3s;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-right: 17px;
+  margin-top: 23px;
+}
+.doBox:first-child{
+  margin-left: 30px;
+}
+.doBox p{
+  width: inherit;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #EAB543;
+}
+.doBox form{
+  width: inherit;
+  height: 200px;
+  padding: 20px 48px;
+}
+.doBox form input[type=number]{
+  background-color: #778ca3;
+  border-radius: 5px;
+  margin-left: 12px;
+  outline: none;
+}
+.doBox span{
+  display: block;
+  margin-top: 8px;
+}
+.doBox form input[type=submit]{
+  margin-top: 20px;
+  margin-left: 9px;
+  width: 200px;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #2bcbba;
+  outline: none;
+}
+.doBox form input[type=submit]:hover{
+  background-color: #26de81;
+}
+#material input[type=submit]{
+  margin-top: 70px;
+}
+#opinion input[type=submit]{
+    margin-top: 98px;
+}
+.finalBox{
+  display: block;
+  background-color: #ecf0f1;
+  box-shadow: 10px 10px 20px 0 hsl(0deg 0% 94% / 63%);
+  border-radius: 8px;
+  border: 2px solid #BDC581;
+  box-sizing: border-box;
+  transition: all .3s;
+  margin-top: 35px;
+  margin-left: 235px;
+  width: 680px;
+  height: 150px;
+  overflow: hidden;
+}
+.finalBox p{
+  width: inherit;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  background-color: #EAB543;
+}
+.finalBox form{
+  width: inherit;
+  text-align: center;
+  padding-top: 15px;
+}
+.finalBox form input[type=number]{
+  margin-bottom: 7px;
+  margin-right: 5px;
+}
+.finalBox span{
+  margin-left: 10px;
+}
+.finalBox input[type=submit]{
+  display: block;
+  width: 200px;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #2bcbba;
+  outline: none;
+  margin-left: 240px;
+}

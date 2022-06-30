@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pdsu.mappers.WeightMapper">
+    <!--  储存学生亲属贫困指数  -->
+    <insert id="insertRelative" parameterType="Weights">
+        insert into weights(fage,mage,totalEarn,healthy)
+        values (#{weights.fage},#{weights.mage},#{weights.totalEarn},#{weights.healthy});
+    </insert>
+
+    <!--  学生材料贫困指数  -->
+    <insert id="insertMaterial" parameterType="Weights">
+        insert into weights(degree,variety)
+        values (#{weights.degree},#{weights.variety});
+    </insert>
+
+    <!--  学生观点贫困指数  -->
+    <insert id="insertOpinion" parameterType="Weights">
+        insert into weights(ddegree) values (#{weights.ddegree});
+    </insert>
+
+    <!--  学生贫困指数  -->
+    <insert id="insertMost" parameterType="int">
+        insert into weights(relativeIndex,materialIndex,consumptionIndex,opinionIndex)
+        values (#{relativeIndex},#{materialIndex},#{consumptionIndex},#{opinionIndex});
+    </insert>
+
+    <select id="selectAll" resultType="com.pdsu.bean.Weights">
+        select wid,aid,fage,mage,totalEarn,healthy,degree,variety,ddegree,consumptionIndex,materialIndex,relativeIndex,opinionIndex from weights;
+    </select>
+
+</mapper>

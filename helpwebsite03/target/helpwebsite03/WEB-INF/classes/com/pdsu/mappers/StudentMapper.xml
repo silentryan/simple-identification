@@ -1,0 +1,31 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pdsu.mappers.StudentMapper">
+    <!--  录入学生信息  -->
+    <insert id="insertStuInfo" parameterType="Student">
+        insert into student(college,major,lesson,grade,sname,ssex,haddress,sid,sident,stel,fNum,fTel,posCode,semail)
+            values
+            (#{student.college},#{student.major},#{student.lesson},#{student.grade},#{student.sname},#{student.ssex},#{student.haddress},#{student.sid},#{student.sident},#{student.stel},#{student.fNum},#{student.fTel},#{student.posCode},#{student.semail});
+    </insert>
+
+    <!--  删除一个贫困学生  -->
+    <delete id="deleteStu" parameterType="int">
+        delete from student where sid=#{sid};
+    </delete>
+
+    <!--  更新贫困学生的信息  -->
+    <update id="updateStu" parameterType="int">
+
+    </update>
+
+    <!--  查询所有学生权限  -->
+    <select id="selectAll" resultType="com.pdsu.bean.Student">
+        select sid,sname,college,major,lesson,grade,stel,sauth from student;
+    </select>
+
+    <!--  查询所有贫困学生  -->
+    <select id="selectPoors" resultType="com.pdsu.bean.Student">
+        select sid,college,major,lesson,grade,sname,ssex,stel,fNum,fTel,haddress,povertyIndex from student;
+    </select>
+</mapper>

@@ -1,0 +1,137 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+html{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: bofont;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #dfe4ea;
+}
+
+/* ----------------------------------------------------导航条--------------------------------------------------------- */
+.p-side{
+  font-family: bofont;
+  background-color: #1e272e;
+}
+.p-side img{
+  margin: 0px;
+  padding: 0px;
+}
+.p-side ul{
+  margin: 0px;
+  padding: 0px;
+  background-color: #1e272e;
+}
+.p-side li{
+  margin-bottom: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+#ps-main{
+  background-color: #485460;
+  height:100px;
+}
+#ps-main a{
+  height: 100px;
+  line-height: 100px;
+  /* text-align: center; */
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+
+/* 右边面板================================================================================================ */
+.layui-card{
+  border-radius: 0px;
+}
+.layui-card-header{
+  padding: 0px;
+  height: 65px;
+}
+#item_1{
+  font-family: xingkai_font;
+  margin-left: 5px;
+}
+#item_1 p{
+  font-size: 16px;
+}
+#item_guanli{
+  margin-left: 580px;
+}
+#item_button{
+  width: 140px;
+}
+#item_button button{
+  height: 30px;
+  font-family: bofont;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  width: 120px;
+}
+#item_img{
+  width: 50px;
+  margin-left: 20px;
+}
+
+/* 卡片主体------------------------- */
+.layui-card-body{
+  font-family: bofont;
+}
+.layui-card-body button{
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  font-family: bofont;
+  font-size: 15px;
+  padding: 7px 7px;
+}
+.button1{
+  background-color: #f5bc21;
+  margin-right: 15px;
+  margin-left: -100px;
+}
+.button2{
+  box-shadow:  0 2px 0 rgba(0,0,0,.015);
+  border: 0.2px solid rgba(0,0,0,.015);
+}
+.layui-card-body li{
+  padding-left: 15px;
+}
+.nav-right{
+  margin: 0px;
+  padding: 0px;
+  height: 65px;
+}
+.nav-right{
+  line-height: 65px;
+  height: 65px;
+}
+.layui-nav-item{
+  display: inline;
+}

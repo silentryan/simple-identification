@@ -1,0 +1,236 @@
+/* 外部字体 */
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+/*页面设置 */
+html{
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background-image: url("../images/main_bg1.png");
+  background-attachment: fixed;  /* 背景壁纸铺满不移动*/
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* 测试盒子大小
+div{
+  border: 1px solid red;
+}
+*/
+
+/* 主内容框 */
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+/* 背景图 */
+.bk-nav{
+  display: inline-block;
+  height: 190px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/header/bg_2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*导航栏 ---------------------------------------------------------------------------------*/
+.navbar{
+  width: 1250px;
+  margin: 20px auto;
+  margin-top: 50px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+#nav-one{
+  font-weight: bolder;
+}
+
+.navbar li{
+  padding: 0px 20px;
+}
+
+.last_item{
+  margin-left: 680px;
+}
+
+.headGroup button{
+  padding: 0px;
+  border: none;
+  outline: none;
+  width: 40px;
+}
+
+.headGroup button[data-toggle=dropdown]{
+  margin-left: -7px;
+  padding-top:2px;
+}
+
+#headImg{
+  margin: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 24px;
+}
+
+/* 正文内容------------------------------------------------------------------------------------------- */
+
+/* 侧边栏 */
+.h-side{
+  float: left;
+  width: 40px;
+  position: fixed;
+  display:inline-block;
+  margin: 40px 5px auto 20px;                  /* 四 - 上 右 下 左， 二- 上下 左右 */
+}
+
+.h-side button{
+  background-color: #3498db;
+  padding: 20px 20px;
+}
+.h-side div{
+  height: 10px;
+  width: 60px;
+  background-color: #dfe4ea;
+}
+
+.h-side a{
+  color: white;
+  text-decoration: none;  /*去掉a标签的下划线*/
+  font-family: bofont;
+  font-weight: bold;
+
+}
+
+/* 主内容--------------------------------------------------------------------------------------- */
+.h-context{
+  margin-left: 120px;
+}
+
+/* 贫困生申请==================================== */
+.p-modle{
+  border: 1px solid #95a5a6;
+  margin-bottom: 20px;
+}
+.p-title{
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 10px solid #2ecc71;
+
+}
+.p-title span{
+  line-height: 80px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+/* table-margin , td tr -padding */
+.p-basic{
+  margin-top: 20px;
+  font-family: bofont;
+  font-weight: bold;
+  margin-left: 7px;
+}
+.p-basic input[type= text],.p-basic input[type= number]{
+  display: inline;
+  width: 130px;
+}
+
+.p-basic td{
+  padding: 20px 15px;
+}
+
+.p-context span{
+  display: block;
+  margin-left: 357px;
+  margin-top: 35px;
+  font-family: bofont;
+}
+
+.p-context input[type = submit]{
+  width: 400px;
+  margin: 5px 0 20px 360px;;
+  text-align: center;
+  padding: 10px 10px;
+  font-family: bofont;
+  font-weight: bold;
+  color: #5352ed;
+  background-color: #7bed9f;
+  border-radius: 7px;
+}
+#pt-btn{
+  width: 120px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: bofont;
+  background-color: #1abc9c;
+  outline: none;
+  border-radius: 7px;
+}
+
+/* 处理提交材料--------------------------- */
+.pc-content, .pc-file{
+  font-family: bofont;
+  font-weight: bold;
+}
+.pc-content{
+  display: inline-block;
+  width: 550px;
+  margin-top: 40px;
+  margin-left: 60px;
+  vertical-align: top;
+}
+.pc-content p{
+  height: 50px;
+}
+.pc-file{
+  display:inline-block;
+  width: 600px;
+}
+
+.pcc-one button{
+  border-radius: 7px;
+  width: 120px;
+  margin-left: 30px;
+  background-color: #1abc9c;
+  outline: none;
+}
+input[type=file]{
+  background-color: #1abc9c;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}

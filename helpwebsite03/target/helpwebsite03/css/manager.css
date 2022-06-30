@@ -1,0 +1,268 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+html{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: bofont;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #dfe4ea;
+}
+
+
+/* 从sidebar开始=========================================== */
+.m-side{
+  font-family: bofont;
+  background-color:#2f3542;
+}
+.m-side ul{
+  background-color: #2f3542;
+}
+.m-side li{
+  padding: 10px 0px;
+}
+.sidebar_header{
+  background-color:#57606f;
+  border-bottom: 1px solid gray;
+}
+.sidebar_header a{
+  margin: 0px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.sidebar_header img{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sideBar_f img{
+  margin-right: 15px;
+}
+.sideBar_item_f{
+  border-top: 1px solid #EAB543;
+  margin-top: 20px;
+}
+
+/* --------------------------------------------------------主体内容------------------------------------------------ */
+.startBox{
+  background-color: white;
+  height: 65px;
+}
+.startBox ul{
+  height: 65px;
+}
+.startBox-item{
+  padding: 0px;
+  width: 75px;
+}
+#item_1{
+  margin-left: 120px;
+}
+
+#item_button{
+  width: 140px;
+}
+#item_button button{
+  height: 30px;
+  font-family: bofont;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  width: 120px;
+}
+#item_img{
+  width: 50px;
+  margin-left: 20px;
+}
+
+/* 信息区--------------------------------------------------------------------------------------------- */
+.mc-topInfo{
+  margin: 20px 0px 10px 40px;
+}
+
+.mc-topInfo span:first-child{
+  display: inline-block;
+  width: 800px;
+  vertical-align: middle;
+}
+
+.sectionHeader{
+  background-image: url("../images/back/sectionIMG.png");
+  padding-top: 17px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: contain;
+  height: 100px;
+}
+.section-first-desc{
+  font-family: bofont;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-first-desc img{
+  width: 29px;
+  height: 29px;
+  margin-top: -4px;
+  margin-left: 10px;
+}
+.section-second-desc{
+  font-family: sans-serif;
+  font-size: 13px;
+  color: rgba(43,52,65,.4);
+  margin-bottom: 10px;
+}
+.sectionBody{
+  height: 100px;
+}
+
+.sb-desc b{
+  display: block;
+  width: 180px;
+  padding: 0px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+.sb-desc{
+  display: inline-block;
+  width: 180px;
+  margin-top: 20px;
+}
+
+.sb-desc a{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  width: 180px;
+  text-align: center;
+}
+#sbd-one{
+  margin-left: 8px;
+}
+#sbd-two{
+  margin-left: 7px;
+}
+
+#sbd-three{
+  margin-left: 8px;
+}
+#sbd-four{
+  margin-left: 10px;
+}
+
+/* --------------------------------------------- */
+.mc-topInfo span:last-child{
+  display: inline-block;
+  width: 350px;
+  vertical-align: middle;
+  background-color: white;
+  margin-left: 50px;
+}
+
+.mct-leftBar p{
+  padding: 5px 0px 7px 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.mct-leftBar img{
+  margin-right: 15px;
+}
+
+/* -------------------------------------------------- */
+.mcw-line{
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 60px;
+  border-bottom: 2px solid #78e08f;
+  height: 35px;
+}
+.mcw-line span:first-child{
+  font-size: 20px;
+  font-family: bofont;
+  color: #f6b93b;
+
+}
+.mcw-line span:last-child{
+  float: right;
+  margin-bottom: -10px;
+}
+.mcw-line button{
+  font-family: bofont;
+  width: 120px;
+  background-color: #f5bc21;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+.mcw-line img{
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  margin-right: 2px;
+}
+
+/* ------------------------------------------------------------- */
+.mcw-menu{
+  margin-left: 40px;
+  margin-top: 55px;
+  flex-wrap: wrap;
+}
+
+.mcw-menu span{
+  display: inline-block;
+  width: 350px;
+  height: 180px;
+  background-color: white;
+  border-radius: 7px;
+  margin-right: 50px;
+}
+.mcwm-p{
+  font-size: 18px;
+  font-family: bofont;
+}
+.mcwm-p img{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.mcwm-modle p:last-child{
+  margin-top: 35px;
+  background-color: #f8c291;
+}
+
+.mcwm-img{
+  margin-left: 300px;
+}

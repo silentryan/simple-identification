@@ -1,0 +1,233 @@
+/* 外部字体 */
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+/*页面设置 */
+html{
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background-image: url("../images/main_bg1.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* 测试盒子大小
+div{
+  border: 1px solid red;
+}
+*/
+
+/* 主内容框 */
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+/* 背景图 */
+.bk-nav{
+  display: inline-block;
+  height: 190px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/header/bg_2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*导航栏*/
+.navbar{
+  width: 1250px;
+  margin: 20px auto;
+  margin-top: 50px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+#nav-one{
+  font-weight: bolder;
+}
+
+.navbar li{
+  padding: 0px 20px;
+}
+
+.last_item{
+  margin-left: 680px;
+}
+
+.headGroup button{
+  padding: 0px;
+  border: none;
+  outline: none;
+  width: 40px;
+}
+
+.headGroup button[data-toggle=dropdown]{
+  margin-left: -7px;
+  padding-top:2px;
+}
+
+#headImg{
+  margin: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 24px;
+}
+
+/* 正文内容 侧边栏---------------------------------------------------------------------------- */
+.s-side{
+  margin-left: 10px;
+  width: 180px;
+  position: fixed;
+  display: inline-block;
+  background-color: #78e08f;
+  border-radius: 15px;
+}
+.s-side ul{
+  margin: 0;
+  padding: 0;
+}
+.s-side li{
+  text-align: center;
+  list-style: none;
+  padding: 7px 5px 0px 0;
+  border-bottom: 2px solid #b8e994;
+}
+.s-side li:last-child{
+  border-bottom: none;
+  padding-bottom: 4px;
+}
+.s-side a{
+  text-align: center;
+  text-decoration: none;
+  font-family: bofont;
+  color: white;
+  font-weight: bold;
+}
+.s-side a:hover{
+  color: black;
+}
+
+
+/* 正文内容-公示名单--------------------------------------------------------------------------- */
+.s-context{
+  margin-top: 10px;
+  width: 85%;
+  display: inline-block;
+  /* border: 1px solid red; */
+  margin-left: 220px;
+}
+.s-title span:first-child{
+  font-weight: bold;
+  font-family: bofont;
+}
+.s-title span:last-child{
+  display: inline-block;
+  background-color: black;
+  height: 2px;
+  width: 95%;
+}
+
+.per-box{
+  display: inline-block;
+  width: 340px;
+  height:500px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 10px 10px 20px 0 hsl(0deg 0% 94% / 63%);
+  border-radius: 8px;
+  border: 2px solid #7ed6df;
+  box-sizing: border-box;
+  transition: all .3s;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-size: cover;
+  vertical-align: center;
+  margin-right: 35px;
+  padding: 20px 30px;
+}
+.per-box:hover{
+  background-color: #f6e58d;
+}
+.per-one{
+  margin-left:100px;
+}
+/*贫困学生头像*/
+.per-box span:first-child{
+  display: inline-block;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  width: 280px;
+  text-align: center;
+}
+.per-box img{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.per-box span{
+  display: inline-block;
+  font-family: bofont;
+  padding: 7px 5px;
+}
+.per-box h6{
+  display: inline;
+  font-weight: bold;
+}
+.per-box p{
+  margin-top: 7px;
+  display: inline-block;
+  height: 190px;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.per-box_fun{
+  display:inline-block;
+  margin-top: -5px;
+  padding-top: -10px;
+  margin-left: -30px;
+  width: 340px;
+  background-color: #7ed6df;
+}
+.per-box_fun a{
+  outline: none;
+  text-decoration: none;
+  background-color: color;
+  padding: 0px;
+}
+.per-box_fun  img{
+  margin: 0px;
+  padding: 0px;
+}
+#per-box_fun_second{
+  margin-left:200px;
+}

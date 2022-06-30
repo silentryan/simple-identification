@@ -1,0 +1,56 @@
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+.pbw-table table{
+}
+
+.pbwt-title{
+  background-color: #84817a;
+  height: 35px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.pbwt-title th{
+  width: 200px;
+  border-right: 1px solid black;
+}
+.pbwt-title th:first-child{
+  width: 100px;
+}
+.pbwt-title th:last-child{
+  background-color: #4b7bec;
+}
+
+#pers{
+  margin: 40px auto auto 250px;
+}
+
+#pers button{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: bofont;
+  background-color: #1abc9c;
+  outline: none;
+  border-radius: 7px;
+}
+
+#pers p-modle{
+  margin-bottom: 60px;
+}
+#pers p{
+  margin-top: 10px;
+}
+
+#pers input[type="submit"]{
+  margin-top: 35px;
+  font-family: bofont;
+  background-color: #1abc9c;
+  outline: none;
+  border-radius: 7px;
+  width: 200px;
+  height: 30px;
+}

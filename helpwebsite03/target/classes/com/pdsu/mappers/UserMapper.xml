@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pdsu.mappers.UserMapper">
+
+<!--    &lt;!&ndash;    测试插入语句    &ndash;&gt;-->
+<!--    <insert id="save" parameterType="User" useGeneratedKeys="true">-->
+<!--            insert into user(uid,username,password,ident) values(#{uid},#{username},#{password},#{ident})-->
+<!--    </insert>-->
+
+    <!--  根据用户名和密码查询用户-登录  -->
+    <select id="selectPer" parameterType="string" resultType="User">
+        select * from user where username = #{username} and password = #{password};
+    </select>
+
+
+</mapper>
